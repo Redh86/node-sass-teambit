@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="dist/app.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script> 
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <header>
+            <div class="head_wrap">
+                <img src="img/logo.svg" alt="">
+                <ul>
+                    <li v-for="element in headNav">{{element}}</li>
+                </ul>
+                <div class="btn">
+                    <i class="fab fa-google"></i>
+                    <p>Sign Up</p>
+                </div>
+            </div>
+            <hr>
+        </header>
+        <main>
+            <div class="jumbo">
+                <div class="jumbo_text">
+                    <h1></h1>
+                    <p></p>
+                    <div class="login">
+                        <div class="btn"><i class="fab fa-google"></i>Sign up With Google</div>
+                        <span>or</span>
+                        <div class="btn"><i class="fab fa-slack"></i>Sign Up with Slack</div>
+                    </div>
+                </div>
+                <img src="img/illustration-main.jpg" alt="">
+            </div>
+        </main>        
+    </div>
+   
+    <script src="src/main.js"></script>
+</body>
+</html>
