@@ -44,18 +44,29 @@ hr {
 .jumbo {
   display: flex;
   width: 80%;
+  height: 60vh;
+  padding: 10px 0 10px 0;
 }
-.jumbo img {
+.jumbo .jumbo_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.jumbo .jumbo_text img {
   width: 50%;
   height: 100%;
   margin: 0;
   padding: 20px 0 20px 0;
 }
-.jumbo .login {
-  display: flex;
-  justify-content: space-between;
+.jumbo .jumbo_text p {
+  margin: 20px 0 20px 0;
 }
-.jumbo .login .btn {
+.jumbo .jumbo_text .login {
+  display: flex;
+  margin: 20px 0 10px 0;
+}
+.jumbo .jumbo_text .login .btn {
+  margin: 0;
   display: flex;
   color: white;
   background-color: #3d3de9;
@@ -63,7 +74,35 @@ hr {
   padding: 5px;
   margin: 0;
 }
-.jumbo .login .btn i {
+.jumbo .jumbo_text .login .btn i {
   width: 3px;
   padding-right: 20px;
+}
+.jumbo .jumbo_text .login span {
+  margin: 0;
+  padding: 0 5px 0 5px;
+}
+
+.under_jumbo_wrap {
+  height: 200vh;
+  background-color: #ffcfaf;
+  padding: 20px 0 20px 0;
+}
+
+.under_jumbo_div {
+  width: 80%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.under_jumbo_img {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px 0 100px 0;
+}
+.under_jumbo_img img {
+  width: 60%;
+}
+.under_jumbo_img p {
+  margin-top: 20px;
 }

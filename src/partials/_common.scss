@@ -33,22 +33,59 @@ hr {
 }
 
 // main
-
+// JUMBOTRON
 .jumbo {
     display: flex;
     width: 80%;
-    img {
-        width: 50%;
-        height: 100%;
-        margin: 0;
-        padding: 20px 0 20px 0;
-    }
-    .login {
+    height: 60vh;
+    padding: 10px 0 10px 0;
+    .jumbo_text {
         display: flex;
-        justify-content: space-between;
-        .btn {
-            @include btn;
+        flex-direction: column;
+        justify-content: center;
+        img {
+            width: 50%;
+            height: 100%;
+            margin: 0;
+            padding: 20px 0 20px 0;
         }
+        p {
+            margin: 20px 0 20px 0;
+        }
+        .login {
+            display: flex;
+            margin: 20px 0 10px 0; 
+            .btn {
+                margin: 0;
+                @include btn;
+            }
+            span {
+                margin: 0;
+                padding: 0 5px 0 5px;
+            }
+        }        
     }
+} 
+// UNDER JUMBO
+.under_jumbo_wrap {    
+    height: 200vh;
+    background-color: rgb(255, 207, 175);
+    padding: 20px 0 20px 0;
+}
+.under_jumbo_div {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.under_jumbo_img {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 100px 0;
+    img {
+        width: 60%;
+    }
+    p {
+        margin-top: 20px;
+    }
+}
 
-}   
