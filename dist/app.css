@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+li {
+  list-style: none;
+}
+
 .head_wrap {
   display: flex;
   width: 80%;
@@ -18,7 +22,6 @@
   margin-right: 10px;
 }
 .head_wrap li {
-  list-style: none;
   padding: 5px;
 }
 .head_wrap .btn {
@@ -45,7 +48,7 @@ hr {
   display: flex;
   width: 80%;
   height: 60vh;
-  padding: 10px 0 10px 0;
+  padding: 50px 0 50px 0;
 }
 .jumbo .jumbo_text {
   display: flex;
@@ -84,15 +87,15 @@ hr {
 }
 
 .under_jumbo_wrap {
-  height: 200vh;
   background-color: #ffcfaf;
-  padding: 20px 0 20px 0;
+  padding: 50px 0 50px 0;
 }
 
 .under_jumbo_div {
   width: 80%;
   text-align: center;
   margin-bottom: 40px;
+  padding: 50px 0 50px 0;
 }
 
 .under_jumbo_img {
@@ -102,7 +105,97 @@ hr {
 }
 .under_jumbo_img img {
   width: 60%;
+  height: 60%;
 }
 .under_jumbo_img p {
   margin-top: 20px;
+}
+
+.feedback_row {
+  display: flex;
+  padding-top: 100px;
+}
+.feedback_row p {
+  padding: 50px 500px 10px 0;
+}
+.feedback_row img {
+  width: 50%;
+}
+
+.pair {
+  padding-left: 25%;
+}
+.pair p {
+  padding-right: 0;
+}
+
+.teambit {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffcfaf;
+  padding: 50px 0 50px 0;
+}
+.teambit .login {
+  display: flex;
+}
+.teambit .login .btn {
+  margin: 0;
+  display: flex;
+  color: white;
+  background-color: #3d3de9;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 0;
+}
+.teambit .login .btn i {
+  width: 3px;
+  padding-right: 20px;
+}
+
+.teambit_text {
+  position: relative;
+  background-color: white;
+  margin: 30px 500px 30px 500px;
+  padding: 30px;
+  border: 2px solid blue;
+  border-radius: 15px;
+}
+.teambit_text i {
+  position: absolute;
+  color: blue;
+  font-size: 2em;
+  top: -16px;
+  left: 9px;
+}
+
+.teambit_creators {
+  display: flex;
+}
+.teambit_creators img {
+  margin: 5px;
+}
+.teambit_creators div {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+footer {
+  display: flex;
+  width: 80%;
+  padding: 50px 0 50px 0;
+}
+footer .foot_logo {
+  display: flex;
+  width: 30%;
+}
+footer .foot_logo img {
+  justify-content: flex-start;
+  width: 50px;
+}
+footer h4 {
+  padding-bottom: 40px;
+}
+footer li {
+  padding: 5px 0 5px 0;
 }

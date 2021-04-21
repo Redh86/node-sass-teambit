@@ -1,0 +1,113 @@
+.jumbo {
+    display: flex;
+    width: 80%;
+    height: 60vh;
+    padding: $brandPadding;
+    .jumbo_text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        img {
+            width: 50%;
+            height: 100%;
+            margin: 0;
+            padding: 20px 0 20px 0;
+        }
+        p {
+            margin: 20px 0 20px 0;
+        }
+        .login {
+            display: flex;
+            margin: 20px 0 10px 0; 
+            .btn {
+                margin: 0;
+                @include btn;
+            }
+            span {
+                margin: 0;
+                padding: 0 5px 0 5px;
+            }
+        }        
+    }
+} 
+// UNDER JUMBO
+.under_jumbo_wrap {    
+    background-color: $notWhiteBackground;
+    padding: $brandPadding;
+}
+.under_jumbo_div {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 40px;
+    padding: $brandPadding;
+}
+.under_jumbo_img {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0 100px 0;
+    img {
+        width: 60%;
+        height: 60%;
+    }
+    p {
+        margin-top: 20px;
+    }
+}
+// feednack
+.feedback_row {
+    display: flex;
+    padding-top: 100px;
+    p {
+        padding: 50px 500px 10px 0;
+    }
+    img {
+        width: 50%;
+    }
+}
+.pair {
+    padding-left: 25%;
+    p {
+        padding-right: 0;
+    }
+}
+// teambit
+.teambit {
+    display: flex;
+    flex-direction: column;
+    background-color: $notWhiteBackground;
+    padding: $brandPadding;
+    .login {
+        display: flex;
+        .btn {
+            margin: 0;
+            @include btn;
+        }        
+    }
+}
+.teambit_text {
+    position: relative;
+    background-color: white;
+    margin: 30px 500px 30px 500px;
+    padding: 30px;
+    border: 2px solid blue;
+    border-radius: 15px;
+    i {
+        position: absolute;
+        color: blue;
+        font-size: 2em;
+        top: -16px;
+        left: 9px;
+    }
+}
+.teambit_creators {
+    display: flex;
+    img {
+        margin: 5px;
+    }
+    div {
+        display: flex;
+        justify-content: center;
+        margin: 5px;
+        
+    }
+}
