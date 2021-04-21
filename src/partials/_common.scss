@@ -1,5 +1,6 @@
 * {
-    @include impagination; 
+    @include impagination;
+    color: $fontColor;
 }
 li {
     list-style: none;

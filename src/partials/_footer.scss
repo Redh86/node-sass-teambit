@@ -3,12 +3,7 @@ footer {
     width: 80%;
     padding: $brandPadding;
     .foot_logo {
-        display: flex;
         width: 30%;
-        img {
-            justify-content: flex-start;
-            width: 50px;
-        }
     }
     h4 {
         padding-bottom: 40px;
